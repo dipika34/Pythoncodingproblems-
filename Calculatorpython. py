@@ -1,0 +1,18 @@
+n=input("Enter the input:")
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second mumber:"))
+match n:
+  case '+':
+    print("Add: ",a+b)
+  case '-':
+    print("Difference: ",a-b)
+  case '*':
+    print("Product:",a*b)
+  case '/':
+    print("Division: ",a/b)
+  case "//":
+    print("Floor division: ",a//b)
+  case "**":
+    print("Power: ",a**b)
+  case "$":
+    print("Invalid operator")
