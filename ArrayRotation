@@ -1,0 +1,7 @@
+n = int(input())
+Input=[]
+for i in range(n):
+    i = int(input())
+    Input.append(i)
+d = int(input())
+print(Input[d:]+Input[:d])
