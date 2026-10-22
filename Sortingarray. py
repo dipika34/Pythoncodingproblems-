@@ -1,0 +1,4 @@
+import numpy
+arr=numpy.array([10,20,40,50,30])
+#array is sorted
+print(numpy.sort(arr))
